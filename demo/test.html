@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="../dist/blinkTitle.min.js"></script>
+	<script>
+	window.onload = function(){blinkTitle('yey','an',1000);}
+	</script>
+</head>
+
+<body>
+
+	<button onclick = "blinkTitleStop()">Stop!</button>
+	<button onclick = "blinkTitle('yey','an',1000)">1 second duration</button>
+	<button onclick = "blinkTitle('yey','an',1000, false, 5000)">1 second duration, stop after 5 seconds</button>
+
+</body>
+
+</html>

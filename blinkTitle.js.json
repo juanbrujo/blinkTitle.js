@@ -1,0 +1,26 @@
+{
+	"name": "blinkTitle.js",
+	"title": "blinkTitle",
+	"homepage": "https://github.com/argunner/blinkTitle.js",
+	"description": "Is a Pure Javascript Implementation of TitleBar Alert or Notification.It Can Perform Blinking of Html Titlebar When Required",
+	"demo": "http://argunner.github.io/blinkTitle.js/",
+	"keywords": [
+		"Javascript",
+		"notification"
+	],
+	"version": "0.2",
+	"author": {
+		"name": "argunner",
+		"url": "https://github.com/argunner"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/",
+			"copyright": "2015"
+		}
+	],
+	"bugs": "https://github.com/argunner/blinkTitle.js/issues",
+	"docs": "https://github.com/argunner/blinkTitle.js#readme",
+	"download": "https://github.com/argunner/blinkTitle.js/archive/master.zip"
+}

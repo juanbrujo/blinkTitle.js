@@ -7,41 +7,39 @@ Is a Pure Javascript Implementation of TitleBar Alert or Notification.It Can Per
 #Usage
 Getting Started
 ```html
-<script type="text/javascript" src="https://raw.githubusercontent.com/argunner/blinkTitle.js/master/index.js"></script>
+<script type="text/javascript" src="blinkTitle.js"></script>
 ```
 
-#Usage
 
 ####Regular Blink
 ```js
-  blinkTitle('message1','message2',delayTime,false);
+blinkTitle('message1','message2',delayTime,false);
 ````
   
 ####Regular Blink with Timeout (milliseconds) (stops after 'timeout')
 ```js
-  blinkTitle('message1','message2',delayTime,false,timeout);
-
+blinkTitle('message1','message2',delayTime,false,timeout);
 ```
 
 ####If You Want Notify When User is On Other Tab
 ```js
-  blinkTitle('message1','message2',delayTime,true);
-  
-  ```
-####If You Want Notify When User is On Other Tab with Timeout (milliseconds) (stops after 'timeout')
-```js
-  blinkTitle('message1','message2',delayTime,true);
+blinkTitle('message1','message2',delayTime,true);
 ```
 
+####If You Want Notify When User is On Other Tab with Timeout (milliseconds) (stops after 'timeout')
 
+```js
+blinkTitle('message1','message2',delayTime,true);
+```
 ####Stop 
 ```js
-  blinkTitleStop();
-  ```
+blinkTitleStop();
+```
+
 #Examples
 http://argunner.github.io/blinkTitle.js/
 
 #Not Yet Implemented
 1. <s> Timeout Implementation </s> implemented by [@michaeldjeffrey](https://github.com/michaeldjeffrey)
 2. Simplify Arguments By Converting them To JSON
-3. Minifying Script
+3. <s>Minifying Script</s>

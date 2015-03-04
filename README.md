@@ -7,7 +7,7 @@ Is a Pure Javascript Implementation of TitleBar Alert or Notification.It Can Per
 #Usage
 Getting Started
 ```html
-<script type="text/javascript" src="blinkTitle.js"></script>
+<script src="blinkTitle.js"></script>
 ```
 
 
